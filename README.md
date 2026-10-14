@@ -1,6 +1,6 @@
 # Engenharia de Controle e Automação | Ciência de Dados | Inteligência Artificial
 
-Formação em Engenharia de Controle e Automação, com foco no desenvolvimento de soluções envolvendo Ciência de Dados, Inteligência Artificial, Machine Learning e Engenharia de Dados.
+Formação em Engenharia de Controle e Automação | Ciência de Dados e Inteligência Artificial. Com foco no desenvolvimento de soluções envolvendo Engenharia de Dados.
 
 Portfólio voltado à aplicação prática de tecnologias para análise de dados, modelagem preditiva, processamento de grandes volumes de informação e automação de processos.
 
