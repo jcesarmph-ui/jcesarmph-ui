@@ -46,7 +46,7 @@
 
 | Indicator | Value | Context |
 |---|---|---|
-| Published software projects | **8** | Data, Machine Learning, applied AI, automation, and desktop and web applications |
+| Published software projects | **9** | Data, Machine Learning, applied AI, automation, and desktop and web applications |
 | Systems in use at the company | **2** | Calibration Management (v1.4.1) and Flat Steel Classification (v1.0.0) |
 | Automated tests | **410** | pytest suite of the Calibration Management System |
 | Main languages | **3** | Python, JavaScript (Node.js) and SQL |
@@ -66,7 +66,7 @@ flowchart LR
 
     A -.- P1(["EasyFix · Smart City"])
     B -.- P2(["Data Analytics"])
-    E -.- P3(["SmartPredict · Steel Classification"])
+    E -.- P3(["SmartPredict · Steel Classification · Certificate Reader"])
     F -.- P4(["Calibration Management · Profits"])
 
     classDef etapa fill:#E0F2FE,stroke:#0284C7,color:#0C4A6E
@@ -83,6 +83,7 @@ flowchart LR
 |---|---|---|---|
 | [Calibration Management System](https://github.com/jcesarmph-ui/SistemaCalibracao) | Industrial quality | Python, PySide6, SQLite, pytest | ![In use](https://img.shields.io/badge/in_use_at_the_company-brightgreen?style=flat-square) |
 | [Flat Steel Classification](https://github.com/jcesarmph-ui/SistemaDeClassificacao) | Industrial quality | Python, PySide6, scikit-learn, Pydantic | ![In use](https://img.shields.io/badge/in_use_at_the_company-brightgreen?style=flat-square) |
+| [AI Certificate Reader](https://github.com/jcesarmph-ui/LeitorCertificadosIA) | Applied AI and metrology | scikit-learn, OCR, PySide6 | ![In use](https://img.shields.io/badge/in_use_in_the_calibration_system-brightgreen?style=flat-square) |
 | [EasyFix](https://github.com/jcesarmph-ui/conserta-facil) | Customer service and AI | Node.js, WhatsApp Cloud API, OpenAI API | ![In development](https://img.shields.io/badge/in_development-yellow?style=flat-square) |
 | [Data Analytics](https://github.com/jcesarmph-ui/DataAnalytics) | Data Engineering | Kafka, Airflow, MongoDB, Spark, Power BI | ![Completed](https://img.shields.io/badge/initial_version_completed-blue?style=flat-square) |
 | [SmartPredict](https://github.com/jcesarmph-ui/SmartPredict) | Machine Learning | Scikit-learn, SHAP, Pandas | ![Completed](https://img.shields.io/badge/completed-blue?style=flat-square) |
@@ -149,6 +150,21 @@ flowchart LR
       <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6"/>
       <img src="https://img.shields.io/badge/Qt_Charts-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt Charts"/>
       <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🧾 <a href="https://github.com/jcesarmph-ui/LeitorCertificadosIA">AI Certificate Reader</a></h3>
+      <b>Machine learning</b> model that reads calibration certificates in PDF, digital or scanned (local
+      <b>OCR</b>), finds the certificate number, date, reference standards and measured points, and checks
+      <b>error ± U</b> against the plan's tolerance. Trained on fictitious certificates and improved with real
+      corrections (essential fields from 77% to 96%). In use inside the Calibration Management System.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+      <img src="https://img.shields.io/badge/OCR-RapidOCR-555555?style=flat-square" alt="RapidOCR"/>
+      <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6"/>
+      <img src="https://img.shields.io/badge/pyHanko-digital_signature-4B5563?style=flat-square" alt="pyHanko"/>
     </td>
   </tr>
 </table>
@@ -281,12 +297,14 @@ Only technologies applied in at least one of the projects above.
   <img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge&logo=python&logoColor=white" alt="NLTK"/>
   <img src="https://img.shields.io/badge/SHAP-8A2BE2?style=for-the-badge" alt="SHAP"/>
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"/>
+  <img src="https://img.shields.io/badge/OCR-RapidOCR-555555?style=for-the-badge" alt="RapidOCR"/>
 </p>
 
 - Classification and predictive modeling with Random Forest and Logistic Regression
 - Natural Language Processing: TF-IDF, Bag of Words and sentiment analysis
 - Model interpretability with SHAP
 - LLM with structured output (JSON Schema) to extract data from free text
+- Information extraction from PDFs with local OCR and a token classifier
 
 </details>
 
@@ -351,6 +369,7 @@ mindmap
       LLM with structured output
       WhatsApp chatbot
       Fallback without AI
+      OCR and document extraction
     Integrations
       Webhooks
       REST APIs and FastAPI
