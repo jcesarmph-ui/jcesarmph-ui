@@ -32,6 +32,12 @@
 </p>
 
 <p align="center">
+  <b>📄 Resume</b><br/>
+  <a href="https://github.com/jcesarmph-ui/jcesarmph-ui/blob/main/curriculo/Resume_Julio_Cesar_Moreira_Pereira_EN.pdf"><img src="https://img.shields.io/badge/Resume-English_(PDF)-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume in English (PDF)"/></a>
+  <a href="https://github.com/jcesarmph-ui/jcesarmph-ui/blob/main/curriculo/Curriculo_Julio_Cesar_Moreira_Pereira_PT.pdf"><img src="https://img.shields.io/badge/Currículo-Português_(PDF)-2EA043?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Currículo em português (PDF)"/></a>
+</p>
+
+<p align="center">
   <a href="#-in-numbers">In numbers</a> •
   <a href="#-overview">Overview</a> •
   <a href="#-projects">Projects</a> •
