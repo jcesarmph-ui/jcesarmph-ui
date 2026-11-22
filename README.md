@@ -1,64 +1,73 @@
-# Engenharia de Controle e Automação | Ciência de Dados e Inteligência Artificial
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/jcmp7/">
-    <img src="https://img.shields.io/badge/LinkedIn-Perfil_Profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <b>🌐 Choose your language · Escolha o idioma</b><br/><br/>
+  <img src="https://img.shields.io/badge/✓_English-current-1F6FEB?style=for-the-badge" alt="English (current)"/>
+  <a href="https://github.com/jcesarmph-ui/jcesarmph-ui/blob/main/README.pt-BR.md">
+    <img src="https://img.shields.io/badge/Português-clique_para_ler_→-2EA043?style=for-the-badge" alt="Ler em português"/>
   </a>
-  <a href="https://github.com/jcesarmph-ui?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"/>
-  </a>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/foco-Engenharia_de_Dados-E25A1C?style=flat-square" alt="Foco em Engenharia de Dados"/>
-  <img src="https://img.shields.io/badge/área-Ciência_de_Dados_e_IA-6A1B9A?style=flat-square" alt="Ciência de Dados e IA"/>
-  <img src="https://img.shields.io/badge/área-Automação_e_Integrações-0E7490?style=flat-square" alt="Automação e Integrações"/>
-  <img src="https://img.shields.io/badge/formação-Controle_e_Automação-1E3A8A?style=flat-square" alt="Engenharia de Controle e Automação"/>
-  <img src="https://img.shields.io/badge/idioma-pt--BR-green?style=flat-square" alt="Idioma"/>
-</p>
-
-<p align="center">
-  Portfólio de soluções que vão do dado bruto à decisão: <b>pipelines de dados</b>, <b>Machine Learning</b>,
-  <b>automação de atendimento com IA</b> e <b>aplicações para a indústria</b>, incluindo sistemas em uso
-  real em ambiente industrial.
-</p>
-
-<p align="center">
-  <a href="#-em-números">Em números</a> •
-  <a href="#-visão-geral">Visão geral</a> •
-  <a href="#-projetos">Projetos</a> •
-  <a href="#-tecnologias-e-ferramentas">Tecnologias</a> •
-  <a href="#-competências">Competências</a> •
-  <a href="#-estatísticas">Estatísticas</a>
 </p>
 
 ---
 
-## 📊 Em números
+# Control and Automation Engineering | Data Science and Artificial Intelligence
 
-| Indicador | Valor | Contexto |
+<p align="center">
+  <a href="https://www.linkedin.com/in/jcmp7/">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/jcesarmph-ui?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/>
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/focus-Data_Engineering-E25A1C?style=flat-square" alt="Focus on Data Engineering"/>
+  <img src="https://img.shields.io/badge/field-Data_Science_and_AI-6A1B9A?style=flat-square" alt="Data Science and AI"/>
+  <img src="https://img.shields.io/badge/field-Automation_and_Integrations-0E7490?style=flat-square" alt="Automation and Integrations"/>
+  <img src="https://img.shields.io/badge/degree-Control_and_Automation-1E3A8A?style=flat-square" alt="Control and Automation Engineering"/>
+</p>
+
+<p align="center">
+  Portfolio of solutions that go from raw data to decisions: <b>data pipelines</b>, <b>Machine Learning</b>,
+  <b>AI-powered customer service automation</b> and <b>industrial applications</b>, including systems in
+  real use in an industrial environment.
+</p>
+
+<p align="center">
+  <a href="#-in-numbers">In numbers</a> •
+  <a href="#-overview">Overview</a> •
+  <a href="#-projects">Projects</a> •
+  <a href="#-technologies-and-tools">Technologies</a> •
+  <a href="#-skills">Skills</a> •
+  <a href="#-statistics">Statistics</a>
+</p>
+
+---
+
+## 📊 In numbers
+
+| Indicator | Value | Context |
 |---|---|---|
-| Projetos de software publicados | **8** | Dados, Machine Learning, IA aplicada, automação e aplicações desktop e web |
-| Sistemas em uso na empresa | **2** | Gestão de Calibração (v1.4.1) e Classificação de Aços Planos (v1.0.0) |
-| Testes automatizados | **410** | Suíte pytest do Sistema de Gestão de Calibração |
-| Linguagens principais | **3** | Python, JavaScript (Node.js) e SQL |
-| Artigos publicados | **3** | IA, IoT e ética, no blog Crescendo Juntos (FESA) |
+| Published software projects | **8** | Data, Machine Learning, applied AI, automation, and desktop and web applications |
+| Systems in use at the company | **2** | Calibration Management (v1.4.1) and Flat Steel Classification (v1.0.0) |
+| Automated tests | **410** | pytest suite of the Calibration Management System |
+| Main languages | **3** | Python, JavaScript (Node.js) and SQL |
+| Published articles | **3** | AI, IoT and ethics, on the Crescendo Juntos blog (FESA) |
 
-## 🧭 Visão geral
+## 🧭 Overview
 
-Cada etapa do ciclo de dados aparece em pelo menos um dos projetos:
+Each stage of the data lifecycle appears in at least one of the projects:
 
 ```mermaid
 flowchart LR
-    A["Coleta<br/>WhatsApp · MQTT · planilhas"] --> B["Integração<br/>webhooks · Kafka · APIs"]
-    B --> C["Armazenamento<br/>SQLite · MongoDB · PostgreSQL · Parquet"]
-    C --> D["Processamento<br/>ETL · Airflow · Spark · DuckDB"]
-    D --> E["Inteligência<br/>Random Forest · NLP · LLM"]
-    E --> F["Entrega<br/>apps desktop · API · dashboards"]
+    A["Collection<br/>WhatsApp · MQTT · spreadsheets"] --> B["Integration<br/>webhooks · Kafka · APIs"]
+    B --> C["Storage<br/>SQLite · MongoDB · PostgreSQL · Parquet"]
+    C --> D["Processing<br/>ETL · Airflow · Spark · DuckDB"]
+    D --> E["Intelligence<br/>Random Forest · NLP · LLM"]
+    E --> F["Delivery<br/>desktop apps · API · dashboards"]
 
-    A -.- P1(["Conserta Fácil · Smart City"])
+    A -.- P1(["EasyFix · Smart City"])
     B -.- P2(["Data Analytics"])
-    E -.- P3(["SmartPredict · Classificação de Aços"])
-    F -.- P4(["Gestão de Calibração · Profits"])
+    E -.- P3(["SmartPredict · Steel Classification"])
+    F -.- P4(["Calibration Management · Profits"])
 
     classDef etapa fill:#E0F2FE,stroke:#0284C7,color:#0C4A6E
     classDef projeto fill:#F1F5F9,stroke:#64748B,color:#1E293B
@@ -66,43 +75,43 @@ flowchart LR
     class P1,P2,P3,P4 projeto
 ```
 
-## 🚀 Projetos
+## 🚀 Projects
 
-### 🔎 Visão rápida
+### 🔎 Quick view
 
-| Projeto | Área | Tecnologias principais | Status |
+| Project | Area | Main technologies | Status |
 |---|---|---|---|
-| [Sistema de Gestão de Calibração](https://github.com/jcesarmph-ui/SistemaCalibracao) | Qualidade industrial | Python, PySide6, SQLite, pytest | ![Em uso](https://img.shields.io/badge/em_uso_na_empresa-brightgreen?style=flat-square) |
-| [Classificação de Aços Planos](https://github.com/jcesarmph-ui/SistemaDeClassificacao) | Qualidade industrial | Python, PySide6, scikit-learn, Pydantic | ![Em uso](https://img.shields.io/badge/em_uso_na_empresa-brightgreen?style=flat-square) |
-| [Conserta Fácil](https://github.com/jcesarmph-ui/conserta-facil) | Atendimento e IA | Node.js, WhatsApp Cloud API, OpenAI API | ![Em desenvolvimento](https://img.shields.io/badge/em_desenvolvimento-yellow?style=flat-square) |
-| [Data Analytics](https://github.com/jcesarmph-ui/DataAnalytics) | Engenharia de Dados | Kafka, Airflow, MongoDB, Spark, Power BI | ![Concluído](https://img.shields.io/badge/versão_inicial_concluída-blue?style=flat-square) |
-| [SmartPredict](https://github.com/jcesarmph-ui/SmartPredict) | Machine Learning | Scikit-learn, SHAP, Pandas | ![Concluído](https://img.shields.io/badge/concluído-blue?style=flat-square) |
-| [Smart City Data Platform](https://github.com/jcesarmph-ui/SmartCityDataPlatform) | Dados urbanos e IoT | MQTT, DuckDB, Parquet, FastAPI | ![Em desenvolvimento](https://img.shields.io/badge/em_desenvolvimento-yellow?style=flat-square) |
-| [Profits](https://github.com/jcesarmph-ui/Profits) | Finanças pessoais | Python, PySide6, Qt Charts, SQLite | ![Em desenvolvimento](https://img.shields.io/badge/em_desenvolvimento-yellow?style=flat-square) |
-| [Plataforma Web de Análise Sensorial](https://github.com/jcesarmph-ui/PlataformaWeb-AnaliseSensorial) | Aplicação web (TCC) | JavaScript, Supabase, PostgreSQL | ![TCC nota máxima](https://img.shields.io/badge/TCC-nota_máxima-brightgreen?style=flat-square) |
+| [Calibration Management System](https://github.com/jcesarmph-ui/SistemaCalibracao) | Industrial quality | Python, PySide6, SQLite, pytest | ![In use](https://img.shields.io/badge/in_use_at_the_company-brightgreen?style=flat-square) |
+| [Flat Steel Classification](https://github.com/jcesarmph-ui/SistemaDeClassificacao) | Industrial quality | Python, PySide6, scikit-learn, Pydantic | ![In use](https://img.shields.io/badge/in_use_at_the_company-brightgreen?style=flat-square) |
+| [EasyFix](https://github.com/jcesarmph-ui/conserta-facil) | Customer service and AI | Node.js, WhatsApp Cloud API, OpenAI API | ![In development](https://img.shields.io/badge/in_development-yellow?style=flat-square) |
+| [Data Analytics](https://github.com/jcesarmph-ui/DataAnalytics) | Data Engineering | Kafka, Airflow, MongoDB, Spark, Power BI | ![Completed](https://img.shields.io/badge/initial_version_completed-blue?style=flat-square) |
+| [SmartPredict](https://github.com/jcesarmph-ui/SmartPredict) | Machine Learning | Scikit-learn, SHAP, Pandas | ![Completed](https://img.shields.io/badge/completed-blue?style=flat-square) |
+| [Smart City Data Platform](https://github.com/jcesarmph-ui/SmartCityDataPlatform) | Urban data and IoT | MQTT, DuckDB, Parquet, FastAPI | ![In development](https://img.shields.io/badge/in_development-yellow?style=flat-square) |
+| [Profits](https://github.com/jcesarmph-ui/Profits) | Personal finance | Python, PySide6, Qt Charts, SQLite | ![In development](https://img.shields.io/badge/in_development-yellow?style=flat-square) |
+| [Sensory Analysis Web Platform](https://github.com/jcesarmph-ui/PlataformaWeb-AnaliseSensorial) | Web application (thesis) | JavaScript, Supabase, PostgreSQL | ![Thesis top grade](https://img.shields.io/badge/thesis-top_grade-brightgreen?style=flat-square) |
 
 <details open>
-<summary><b>🏭 Sistemas em uso na indústria</b></summary>
+<summary><b>🏭 Systems in industrial use</b></summary>
 <br/>
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📏 <a href="https://github.com/jcesarmph-ui/SistemaCalibracao">Sistema de Gestão de Calibração</a></h3>
-      Aplicativo desktop que substituiu uma planilha de cronograma de calibração: cadastro de instrumentos e
-      planos, <b>avaliação automática pela incerteza de medição</b>, cronograma mensal, certificados em PDF,
-      painel de indicadores e relatórios mensais automáticos, com uso simultâneo em pasta de rede.
+      <h3>📏 <a href="https://github.com/jcesarmph-ui/SistemaCalibracao">Calibration Management System</a></h3>
+      Desktop application that replaced a calibration schedule spreadsheet: registry of instruments and plans,
+      <b>automatic evaluation based on measurement uncertainty</b>, monthly schedule, PDF certificates, KPI
+      dashboard and automatic monthly reports, with simultaneous use from a shared network folder.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
       <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6"/>
       <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
-      <img src="https://img.shields.io/badge/pytest-410_testes-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest"/>
+      <img src="https://img.shields.io/badge/pytest-410_tests-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest"/>
       <img src="https://img.shields.io/badge/PyInstaller-.exe-4B8BBE?style=flat-square&logo=python&logoColor=white" alt="PyInstaller"/>
     </td>
     <td width="50%" valign="top">
-      <h3>🔩 <a href="https://github.com/jcesarmph-ui/SistemaDeClassificacao">Classificação de Aços Planos</a></h3>
-      Aplicação desktop que <b>classifica aços planos</b> (laminados a frio, a quente e zincados) a partir das
-      propriedades mecânicas e químicas, com motor de regras baseado nas normas ABNT, histórico compartilhado
-      e avisos de <b>Machine Learning</b> aprendidos com o próprio histórico.
+      <h3>🔩 <a href="https://github.com/jcesarmph-ui/SistemaDeClassificacao">Flat Steel Classification</a></h3>
+      Desktop application that <b>classifies flat steel</b> (cold-rolled, hot-rolled and galvanized) from its
+      mechanical and chemical properties, with a rules engine based on Brazilian ABNT standards, a shared history
+      and <b>Machine Learning</b> warnings learned from that history.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
       <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6"/>
@@ -115,15 +124,15 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>🤖 Automação e IA aplicada</b></summary>
+<summary><b>🤖 Automation and applied AI</b></summary>
 <br/>
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💬 <a href="https://github.com/jcesarmph-ui/conserta-facil">Conserta Fácil</a></h3>
-      Chatbot de atendimento no <b>WhatsApp</b> para uma assistência técnica fictícia: orçamento, consulta de
-      reparo por protocolo, agendamento e encaminhamento para a equipe. A IA interpreta mensagens em texto
-      livre com <b>saída estruturada em JSON Schema</b>, e o webhook valida cada evento com HMAC SHA-256.
+      <h3>💬 <a href="https://github.com/jcesarmph-ui/conserta-facil">EasyFix</a></h3>
+      <b>WhatsApp</b> customer service chatbot for a fictitious phone repair shop: quotes, repair tracking by
+      protocol number, scheduling and handoff to the team. The AI interprets free-text messages with
+      <b>structured output in JSON Schema</b>, and the webhook validates every event with HMAC SHA-256.
       <br/><br/>
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
       <img src="https://img.shields.io/badge/WhatsApp_Cloud_API-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Cloud API"/>
@@ -132,9 +141,9 @@ flowchart LR
     </td>
     <td width="50%" valign="top">
       <h3>💰 <a href="https://github.com/jcesarmph-ui/Profits">Profits</a></h3>
-      Aplicativo desktop de <b>gestão de carteira de investimentos</b> que substitui uma planilha: patrimônio por
-      classe de ativo, alocação atual e desejada, fechamento mensal com conferências e cotações do dólar e do
-      Bitcoin consultadas automaticamente por API.
+      Desktop application for <b>investment portfolio management</b> that replaces a spreadsheet: net worth by
+      asset class, current versus target allocation, monthly closing with validation checks, and dollar and
+      Bitcoin quotes fetched automatically from an API.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
       <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6"/>
@@ -146,15 +155,15 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>🗄️ Engenharia de Dados e Machine Learning</b></summary>
+<summary><b>🗄️ Data Engineering and Machine Learning</b></summary>
 <br/>
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>📈 <a href="https://github.com/jcesarmph-ui/DataAnalytics">Data Analytics</a></h3>
-      Pipeline de avaliações de produtos com <b>mensageria, classificação de sentimentos, armazenamento NoSQL,
-      orquestração e BI</b>: Kafka transmite os dados, o MongoDB armazena, o Airflow agenda o ETL e o Power BI
-      apresenta os indicadores.
+      Product review pipeline with <b>messaging, sentiment classification, NoSQL storage, orchestration and
+      BI</b>: Kafka streams the data, MongoDB stores it, Airflow schedules the ETL and Power BI presents the
+      indicators.
       <br/><br/>
       <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Apache Kafka"/>
       <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Apache Airflow"/>
@@ -165,9 +174,9 @@ flowchart LR
     </td>
     <td width="50%" valign="top">
       <h3>⚙️ <a href="https://github.com/jcesarmph-ui/SmartPredict">SmartPredict</a></h3>
-      <b>Manutenção preditiva industrial</b> com o dataset AI4I 2020 (10.000 registros): ETL, análise
-      exploratória, Random Forest, otimização com RandomizedSearchCV, testes de estresse e interpretabilidade
-      com <b>SHAP</b>.
+      <b>Industrial predictive maintenance</b> with the AI4I 2020 dataset (10,000 records): ETL, exploratory
+      analysis, Random Forest, optimization with RandomizedSearchCV, stress tests and interpretability with
+      <b>SHAP</b>.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
       <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
@@ -178,9 +187,9 @@ flowchart LR
   <tr>
     <td colspan="2" valign="top">
       <h3>🏙️ <a href="https://github.com/jcesarmph-ui/SmartCityDataPlatform">Smart City Data Platform</a></h3>
-      Plataforma de <b>dados urbanos</b> com sensores simulados de clima, qualidade do ar e mobilidade: publicação
-      via MQTT, validação das leituras, cópia analítica em Parquet, consultas com DuckDB, API FastAPI e
-      dashboard web local, sem necessidade de hardware físico.
+      <b>Urban data</b> platform with simulated weather, air quality and mobility sensors: publishing via MQTT,
+      reading validation, an analytical copy in Parquet, queries with DuckDB, a FastAPI API and a local web
+      dashboard, with no physical hardware required.
       <br/><br/>
       <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT"/>
       <img src="https://img.shields.io/badge/Mosquitto-3C5280?style=flat-square&logo=eclipsemosquitto&logoColor=white" alt="Eclipse Mosquitto"/>
@@ -194,14 +203,15 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>🌐 Aplicações web e publicações</b> (clique para expandir)</summary>
+<summary><b>🌐 Web applications and publications</b> (click to expand)</summary>
 <br/>
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🍽️ <a href="https://github.com/jcesarmph-ui/PlataformaWeb-AnaliseSensorial">Plataforma Web de Análise Sensorial</a></h3>
-      Trabalho de Conclusão de Curso, <b>avaliado com nota máxima</b>, sobre uma plataforma web que <b>automatiza a
-      análise sensorial de alimentos</b>, validada com 26 voluntários, com redução de 45,65% no tempo de execução no cenário comparativo do estudo.
+      <h3>🍽️ <a href="https://github.com/jcesarmph-ui/PlataformaWeb-AnaliseSensorial">Sensory Analysis Web Platform</a></h3>
+      Undergraduate thesis, <b>awarded the top grade</b>, on a web platform that <b>automates sensory analysis
+      of food</b>, validated with 26 volunteers, with a 45.65% reduction in execution time in the study's
+      comparative scenario.
       <br/><br/>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
       <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
@@ -209,24 +219,24 @@ flowchart LR
       <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
     </td>
     <td width="50%" valign="top">
-      <h3>✍️ <a href="https://github.com/jcesarmph-ui/Textos-Publicados">Artigos de Tecnologia</a></h3>
-      Artigos técnicos sobre <b>Inteligência Artificial, Internet das Coisas e cidades inteligentes</b>,
-      publicados no blog Crescendo Juntos da Faculdade Engenheiro Salvador Arena.
+      <h3>✍️ <a href="https://github.com/jcesarmph-ui/Textos-Publicados">Technology Articles</a></h3>
+      Technical articles on <b>Artificial Intelligence, the Internet of Things and smart cities</b>, published
+      on the Crescendo Juntos blog of Faculdade Engenheiro Salvador Arena (in Portuguese).
       <br/><br/>
-      <img src="https://img.shields.io/badge/IA-6A1B9A?style=flat-square" alt="IA"/>
+      <img src="https://img.shields.io/badge/AI-6A1B9A?style=flat-square" alt="AI"/>
       <img src="https://img.shields.io/badge/IoT-00979D?style=flat-square" alt="IoT"/>
-      <img src="https://img.shields.io/badge/Ética-555555?style=flat-square" alt="Ética"/>
+      <img src="https://img.shields.io/badge/Ethics-555555?style=flat-square" alt="Ethics"/>
     </td>
   </tr>
 </table>
 </details>
 
-## 🧰 Tecnologias e ferramentas
+## 🧰 Technologies and tools
 
-Somente tecnologias aplicadas em pelo menos um dos projetos acima.
+Only technologies applied in at least one of the projects above.
 
 <details open>
-<summary><b>🐍 Linguagens</b></summary>
+<summary><b>🐍 Languages</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -238,7 +248,7 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
 </details>
 
 <details open>
-<summary><b>🔗 Engenharia de Dados e Big Data</b></summary>
+<summary><b>🔗 Data Engineering and Big Data</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka"/>
@@ -251,7 +261,7 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
 </details>
 
 <details open>
-<summary><b>💾 Bancos de dados</b></summary>
+<summary><b>💾 Databases</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
@@ -262,7 +272,7 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
 </details>
 
 <details open>
-<summary><b>🧪 Machine Learning e IA</b></summary>
+<summary><b>🧪 Machine Learning and AI</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
@@ -273,15 +283,15 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"/>
 </p>
 
-- Classificação e modelagem preditiva com Random Forest e Regressão Logística
-- Processamento de Linguagem Natural: TF-IDF, Bag of Words e análise de sentimentos
-- Interpretabilidade de modelos com SHAP
-- LLM com saída estruturada (JSON Schema) para extrair dados de texto livre
+- Classification and predictive modeling with Random Forest and Logistic Regression
+- Natural Language Processing: TF-IDF, Bag of Words and sentiment analysis
+- Model interpretability with SHAP
+- LLM with structured output (JSON Schema) to extract data from free text
 
 </details>
 
 <details open>
-<summary><b>🔌 APIs, integrações e aplicações</b></summary>
+<summary><b>🔌 APIs, integrations and applications</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
@@ -294,7 +304,7 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
 </details>
 
 <details open>
-<summary><b>🛠️ Qualidade de software, empacotamento e ferramentas</b></summary>
+<summary><b>🛠️ Software quality, packaging and tools</b></summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest"/>
@@ -310,66 +320,70 @@ Somente tecnologias aplicadas em pelo menos um dos projetos acima.
 </details>
 
 <details>
-<summary><b>✨ IA como ferramenta de desenvolvimento</b> (clique para expandir)</summary>
+<summary><b>✨ AI as a development tool</b> (click to expand)</summary>
 <br/>
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"/>
   <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex"/>
 </p>
 
-Assistentes de IA usados no desenvolvimento, com regras de negócio, arquitetura e revisão de cada etapa
-definidas manualmente.
+AI assistants used during development, with business rules, architecture and the review of each stage
+defined manually.
 
 </details>
 
-## 🧠 Competências
+## 🧠 Skills
 
 ```mermaid
 mindmap
-  root((Competências))
-    Engenharia de Dados
-      Pipelines ETL
-      Kafka e Airflow
-      Spark e DuckDB
+  root((Skills))
+    Data Engineering
+      ETL pipelines
+      Kafka and Airflow
+      Spark and DuckDB
       Parquet
-    Ciência de Dados e ML
-      Análise exploratória
+    Data Science and ML
+      Exploratory analysis
       Random Forest
-      NLP e sentimentos
+      NLP and sentiment
       SHAP
-    IA aplicada
-      LLM com saída estruturada
-      Chatbot no WhatsApp
-      Fallback sem IA
-    Integrações
+    Applied AI
+      LLM with structured output
+      WhatsApp chatbot
+      Fallback without AI
+    Integrations
       Webhooks
-      APIs REST e FastAPI
+      REST APIs and FastAPI
       HMAC SHA-256
       MQTT
-    Desenvolvimento
-      Aplicações desktop PySide6
+    Development
+      PySide6 desktop apps
       Node.js
-      Aplicações web
-    Qualidade de software
-      Testes com pytest
-      Validação com Pydantic
-      Empacotamento para Windows
-    Indústria
-      Gestão de calibração
-      Incerteza de medição
-      Normas ABNT
-      Manutenção preditiva
+      Web applications
+    Software quality
+      Testing with pytest
+      Validation with Pydantic
+      Packaging for Windows
+    Industry
+      Calibration management
+      Measurement uncertainty
+      ABNT standards
+      Predictive maintenance
 ```
 
-## 📈 Estatísticas
+## 📈 Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jcesarmph-ui&show_icons=true&theme=tokyonight" alt="Estatísticas do GitHub" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcesarmph-ui&layout=compact&theme=tokyonight" alt="Linguagens mais usadas" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jcesarmph-ui&show_icons=true&theme=tokyonight" alt="GitHub statistics" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcesarmph-ui&layout=compact&theme=tokyonight" alt="Most used languages" height="165"/>
 </p>
 
 ---
 
 <p align="center">
-  <b>Projetos práticos que aplicam dados, IA e automação a problemas reais, da indústria ao atendimento.</b>
+  <b>Hands-on projects applying data, AI and automation to real problems, from industry to customer service.</b>
+</p>
+
+<p align="center">
+  🌐 <a href="https://github.com/jcesarmph-ui/jcesarmph-ui/blob/main/README.pt-BR.md">Ler esta página em português</a>
 </p>
